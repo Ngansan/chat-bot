@@ -1,0 +1,76 @@
+.sideBar{
+    flex: 3;
+    border-right: 1px solid rgb(100, 100, 100);
+
+    .upperSide{
+        padding: 2.5rem;
+        border-bottom: 1px solid rgb(100, 100, 100);
+        .upperSideTop{
+            display: flex;
+            // border: 1px solid red;
+            align-items: center;
+            margin-top: -15px;
+            .logo{
+                width: 80px;
+                margin-right: 5px;
+            }
+            .brand{
+                font-size: 25px;
+            }
+        }
+        .midBtn{
+            cursor: pointer;
+            padding: 12px 8px;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #5a4bff;
+            border-radius: 4px;
+            border: none;
+            color: white;
+            width: 100%;
+            .addBtn{
+                // border: 1px solid red;
+                font-size: 20px;
+                margin-right: 3px;
+            }
+        }
+        .upperSideBottom{
+            .query{
+                display: flex;
+                align-items: center;
+                background: transparent;
+                padding: 1.5rem;
+                width: 25rem;
+                margin: 1rem auto;
+                border-radius: 4px;
+                border: 1px solid rgb(100, 100, 100);
+                color: rgba(222, 222, 222, 1);
+                width: 100%;
+                .msgIcon{
+                    color: rgba(222, 222, 222, 1);
+                    font-size: 15px;
+                    margin-right: 30px;
+                    
+                }
+            }
+
+        }
+    }
+    .lowerSide{
+        padding: 2.5rem;
+
+        .listItems{
+            margin: 0.75rem;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+
+            .listItemsImg{
+                margin-right: 5px;
+            }
+
+        }
+    }
+}
