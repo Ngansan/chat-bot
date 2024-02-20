@@ -1,0 +1,10 @@
+          {/* <div className="chat ">
+            <TbMessageChatbot className='chatIcon'/>
+            <img src={user} alt="" className='chatIcon'/>
+            <p className="txt">Hello. What are you doing now ?</p>
+          </div>
+          <div className="chat second_chat">
+            <RxAvatar className='chatIcon ava'/>
+            <img src={chatBotLogo} alt="" className='chatIcon'/>
+            <p className="txt"> Hi. How can I help you ?</p>
+          </div> */}
